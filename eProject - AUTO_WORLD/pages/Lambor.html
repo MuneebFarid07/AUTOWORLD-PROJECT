@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Auto World</title>
+<meta name="viewport" content="width=device-width initial-scale=1" />
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<link rel="icon" type="image/jpg" href="../images/PicsArt_08-02-12.34.41.jpg"  />
+
+<style>
+header
+{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#000428, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*background:url(../images/backhead.png);*/
+box-shadow:4px 4px 4px #333
+	}
+[class*="glyphicon glyphicon-user"]
+{
+position:absolute;	
+top:100%;
+right:500%;
+	}
+.class1
+{
+position:absolute;
+top: 0.4%;
+left:45%;
+
+	}
+[class*="nav navbar-inverse"]
+{ 
+height:200px;
+letter-spacing:2px;
+	}
+top-links-container {
+    background-color: #f0f0ed;
+    padding: 5px 0;
+    position: relative;
+    z-index: 200;
+}
+.type3.header-newskin .top-links ul.links a {
+   
+    font-weight: 600;
+    letter-spacing: 0.025em;
+}
+.type3 .top-links ul.links a {
+    color: #fff;
+}
+.top-links-area a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ .links li {
+    font-size: 11px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    line-height: 19px;
+    border-left: 1px solid #ccc
+}
+@media (max-width:768px)
+{
+	.links
+	{
+		position:relative;
+	 float: none;
+	 background-color:#000000;
+	}
+}
+
+ul
+{
+list-style:none;
+	
+	}
+	.links li {
+    display: inline;
+}
+.searchclass
+{
+position:absolute;
+top:15%;
+left:50%;
+
+	}
+
+p
+{
+position:absolute;
+top:10%;	
+	}
+.item
+{
+height:450px;	
+	}
+.item active
+{
+	
+position:absolute;
+top:10%;	
+	}
+h3
+{
+position:absolute;
+top:10%;
+left:75%;
+font-size:18px;
+font-family:Georgia, "Times New Roman", Times, serif;	
+	}
+p
+{
+position:absolute;
+top:16%;
+left:75%;
+font-family:"Courier New", Courier, monospace;
+font-size:20px;
+	}
+	body
+	{
+		}
+	.carousel-indicators
+	{
+	position:absolute;
+	right:100%;	
+		}
+.modles
+{
+margin-left:100px;
+	}
+	footer
+{
+	width:100%;
+	height:100px;
+	background-color:#777;
+	font-size:12px;
+	position:relative;
+	
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#000428, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#logo
+{
+width:80%;
+margin:auto;	
+}	
+@media (max-width:768px)
+{
+	#logo
+	{
+		margin-left:0px;
+	}
+	
+	
+}
+.navbar-default
+{
+
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border:none;
+border-radius:0;	
+}
+.textoverimage
+{
+	position: relative;
+width:100%;
+height:350px;
+margin:4px;	
+background-size:100%;
+background-position:center;
+transition:0.5s;	
+	}
+	.textoverimage:hover{
+	background-size:110%;	
+	}
+	.textoverimage:after
+	{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	word-wrap:break-word;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0,6);
+	color:#fff;
+	padding:8px;
+	opacity:0;
+	transition:0.5s;
+	contant:attr(data-text);	
+		}
+	#sidebar
+	{
+	background-color:#151515;
+		width:200px;
+		height:100%;
+		
+		
+		}
+		#sidebar ul li
+		{
+		color:#FFF;
+		list-style:none;
+		padding:15px 10px;
+		border-bottom: 1px solid rgba(100,100,100,0.3);	
+			}
+			#sidebar.toggle-btn
+			{
+			
+			position:absolute;
+			left:230px;
+			top:20px;
+				
+				}
+			#siderbar.toggle-btn span
+			{
+			display:block;
+			width:30px;
+			height:5px;
+			background:#151719;
+			margin:3px 0px;	
+				
+				}
+				.links {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 3px 0;
+    color: #08c;
+}
+	
+</style>
+</head>
+<body style="background: #000000; 
+background: -webkit-linear-gradient(to right, #434343, #000000);  
+background: linear-gradient(to right, #434343, #000000); 
+">
+
+<ul class="links">
+<li class="first"><a href="forms.html" title="MyAccount" style="color:#FFF;  "> Sign In</a></li>
+<li><a href="#" title="daily deals" style="color:#FFF;">Daily Deals </a></li>
+<li class="last"><a href="login.html" title="Log In" style="color:#FFF;">LogIn</a></li>
+</ul>
+<header>
+
+<div  id="logo"><img src="../images/icon,.png" width="23%"  height="150px" /></div>
+<center>
+<div class="searchclass" id="search1">
+ 
+
+
+</div>
+</center>
+</header>
+ <center>
+ 
+<nav class="navbar navbar-default">
+<div class="container-fluid" >
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class=" nav navbar-nav">
+<li class="active"><a href="../index.html">Home</a></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Modles<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="sports.html">Sports Cars</a> </li>
+<li><a href="#">Luxury Cars</a> </li>
+<li><a href="#">Family Cars</a> </li>
+</ul>
+</li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Privacy Policy</a></li>
+</ul>
+<form class="navbar-form navbar-right">
+  <div class="input-group">
+    <input id="search" type="search" class="form-control" name="search" placeholder="Search here...">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+  </div>
+</form>
+</div>
+</div>
+</nav>
+</center>
+
+
+<b><h2 style="font-family: 'Times New Roman', Times, serif; font-size:36px; margin-left:10%;color:#FFF;">Lamborghini</h2></b>
+<div class="container-fluid" class="front">
+<div class="textoverimage" style="background-image:url(../images/lamborghini-aventador-lp-700-4-roadster-ad-personam.jpg)"  ></div>
+<div id="sidebar" style="">
+<ul>
+<li><a href="farrari.html" style="color:#FFF"> Farrari </a></li>
+<li><a href="#" style="color:#FFF"> Lamborghini </a></li>
+<li><a href="#" style="color:#FFF"> Mclaren</a></li>
+<li><a href="#" style="color:#FFF"> Mazda</a></li>
+<li><a href="#" style="color:#FFF"> porsche</a></li>
+<li><a href="#" style="color:#FFF">Ford</a></li>
+<li><a href="Nissan.html" style="color:#FFF"> Nissan</a></li>
+<li><a href="#" style="color:#FFF"> koenigsegg</a></li>
+</ul>
+
+</div>
+
+<footer>
+</footer>
+<footer	style=" text-align:center;background-color:background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#000428, #004e92, #000428);margin-top:10px;"> 
+<p> 
+<a href="a"> About Us| </a>
+<a href="a">  Terms & Conditions| </a>
+<a href="a">Privacy Policy| </a>
+<a href="a">  Contact| </a>
+<a href="a">Mitao|</a>
+<a href="a">  Bhook| </a>
+<a href="a"> Store| </a>
+<a href="a"> Locator| </a>
+</p>
+<p style="color:#fff;">© 2018 Auto World Pakistan. All rights reserved.</p> 
+<p>eCommerce by Fishry</p>
+   </footer></body>
+</html>
